@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**{},
-I am Omega Links Converter Bot. I Can Convert Links Directly From Your OmegaLinks.in Account,
+I am Ronylink Links Converter Bot. I Can Convert Links Directly From Your Ronylink.com Account,
     
-Go To** 👉 https://omegalinks.in/member/tools/api?connect=true
+Go To** 👉 https://Ronylink.com/member/tools/api?connect=true
 **🤗 Than Hit Start If You're Redirected To Bot.**
 
 Other Ways 👇
 
-1. **Go To** 👉 https://omegalinks.in/member/tools/api
+1. **Go To** 👉 https://Ronylink.com/member/tools/api
 2. **Than Copy** API Key
 3. **Than Type** `/api` than give a single space and than paste your API Key
 **(see example to understand more...)**
@@ -25,13 +25,13 @@ Other Ways 👇
 **➕ Hit** 👉 /channel To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You are new to OmegaLinks then click on below button to create your account.'''
+If You are new to Ronylink.com then click on below button to create your account.'''
 
 HELP_MESSAGE = '''**{},**
 
 ɪ  ᴄᴀɴ  ᴄᴏɴᴠᴇʀᴛ  ᴀɴʏ  ᴅɪʀᴇᴄᴛ  ʟɪɴᴋ  ɪɴᴛᴏ  ʏᴏᴜʀ  ᴜʀʟ  ꜱʜᴏʀᴛᴇʀɴ  ʟɪɴᴋꜱ.
     
-𝟏.  ɢᴏ  ᴛᴏ  👉  https://omegalinks.in/member/tools/api
+𝟏.  ɢᴏ  ᴛᴏ  👉  https://Ronylink.com/member/tools/api
   
 𝟐.  ᴛʜᴀɴ  ᴄᴏᴘʏ  **ᴀᴘɪ  ᴋᴇʏ**
 
@@ -48,13 +48,13 @@ HELP_MESSAGE = '''**{},**
 𝐍𝐎𝐓𝐄 :  ꜰᴏʀ  ᴅᴇᴛᴀɪʟꜱ 👇 👇'''
 
 ABOUT_TEXT = '''**
-I am Omega Links Converter Bot. I Can Convert Links Directly From Your OmegaLinks.in Account,**
+I am Ronylink Links Converter Bot. I Can Convert Links Directly From Your Ronylink.com Account,**
 
 **⚡Features⚡**
 
-**• I can Convert any links or posts to your OmegaLinks link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)**
+**• I can Convert any links or posts to your Ronylink.com link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)**
 
-**• I can Convert unlimited OmegaLinks.in links at once.** (if you are sending a list of urls.)
+**• I can Convert unlimited Ronylink.com links at once.** (if you are sending a list of urls.)
 
 **• No need to share password or email to convert links.**
 
@@ -66,13 +66,13 @@ I am Omega Links Converter Bot. I Can Convert Links Directly From Your OmegaLink
 
 **• I Can Automatically Replace Your Banner Image To images in the post. Hit  👉/Banner_image To Know More...**
 
- Anyone who want to use any **other shortner** instead of OmegaLinks than **contact to owner** (all **shortners support** available.)'''
+ Anyone who want to use any **other shortner** instead of Ronylink than **contact to owner** (all **shortners support** available.)'''
 
 CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in this format
 
 This feature works only in private mode only
 
-Ex: https://telegram.me/MovieVillaYT | Movie Villa"""
+Ex: https://telegram.me/crezyDevelopers| CD"""
 
 
 ADMINS_MESSAGE = """
@@ -84,7 +84,7 @@ List of Admins who has access to this Bot
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/crezydevelopers')
         
     ],
 
@@ -94,7 +94,7 @@ ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
     [
-        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/Nobideveloperr')
+        InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ  ᴛ𝚘  𝙾ᴡɴᴇʀ  ❣️', url='https://telegram.me/crezydevelopers')
         
     ],
 
@@ -103,7 +103,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('🪄  Connect  To  OmegaLinks  ⚙️', url=f'https://omegalinks.in/ref/devil')
+        InlineKeyboardButton('🪄  Connect  To  Ronylink  ⚙️', url=f'https://Ronylink.com')
     ]
 ])
 
@@ -117,7 +117,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://omegalinks.in/ref/devil)
+- Website: [{base_site}](https://Ronylink.com)
 
 - Site Link:
  {base_site}
@@ -144,7 +144,7 @@ SHORTENER_API_MESSAGE = """To add or update your Shortner Website API,
             
 Ex: `/api 9c5a6c96077a1b499d8f953331221159383eb434 `
 
-Get API From [{base_site}](https://omegalinks.in/ref/devil)
+Get API From [{base_site}](https://Ronylink.com)
 
 Current: {base_site} 
 API: `{shortener_api}`"""
@@ -169,10 +169,10 @@ To Remove Footer Text: `/footer remove`
 `/footer
 ━━━━━━━━━━━━━━━━━
 💁‍♀️ How To Download 👇
-👉 https://youtu.be/rddlpYLm0G0
+👉 https//t.me/yourusersname
 ━━━━━━━━━━━━━━━━━
 🔥 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🔥
-👉 https://telegram.me/Nobideveloper`
+👉 https://telegram.me/`
 """
 
 USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏʀᴍᴀᴛ
@@ -182,11 +182,11 @@ USERNAME_TEXT = """**ᴘʟᴇᴀꜱᴇ  ᴛʏᴘᴇ  ɪɴ  ɢɪᴠᴇɴ  ꜰᴏ�
 
 𝐄𝐱𝐚𝐦𝐩𝐥𝐞:
 
-/channel @BotszList
+/channel @yourchannelName
 
 𝐎𝐫
 
-`/channel https://telegram.me/BotszList`
+`/channel https://telegram.me/yourname`
 
 
 👉 /features  ᴛᴏ  ᴋɴᴏᴡ  ᴍᴏʀᴇ  ꜰᴇᴀᴛᴜʀᴇꜱ  ᴏꜰ  ᴛʜɪꜱ  ʙᴏᴛ."""
@@ -198,7 +198,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b3a.jpg`"""
 
 
 BANNED_USER_TXT = """
