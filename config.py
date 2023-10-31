@@ -7,12 +7,12 @@ load_dotenv()
 
 
 # Mandatory variables for the bot to start
-API_ID = int(os.getenv("API_ID", "Your Api Id"))
-API_HASH = os.environ.get("API_HASH", "Your Api Hash")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
+API_ID = int(os.getenv("API_ID", "16217735"))
+API_HASH = os.environ.get("API_HASH", "445a16e1f1554cc189673c6be5f5a72f")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6730949368:AAGWx6WbIpqKVcdW4fPoGzlav1UysKwCxPA")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("Owner Id")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "ronylinkbotz")
 DATABASE_URL = os.getenv("DATABASE_URL", "Mongodb url") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "Owner Id")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
